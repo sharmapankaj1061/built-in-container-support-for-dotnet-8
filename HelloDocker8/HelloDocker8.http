@@ -1,0 +1,6 @@
+@HelloDocker8_HostAddress = http://localhost:5171
+
+GET {{HelloDocker8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
