@@ -13,11 +13,10 @@
     <ContainerRepository>hellodocker8</ContainerRepository>
 	<PublishProfile>DefaultContainer</PublishProfile>
 	<ContainerImageTags>1.1.0;latest</ContainerImageTags>
-    <ContainerPort Include="80" Type="tcp" />
   </PropertyGroup>
 
   <ItemGroup>
-    <ContainerPort Include="8081" />
+    <ContainerPort Include="8081" Type="tcp" />
   </ItemGroup>
 
 </Project>
